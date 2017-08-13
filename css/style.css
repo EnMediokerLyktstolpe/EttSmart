@@ -2213,7 +2213,8 @@ section.grey_bg {
 }
 
 section.blue_bg {
-    background: #1dc2f8;
+   /* background: #1dc2f8; */
+   background: #FF8785;
 }
 
 section .main_title {
@@ -3107,7 +3108,7 @@ section .main_title {
     padding: 0px;
     margin-top: 25px;
     display: inline-block;
-    border: 10px solid #1dc2f8;
+    border: 10px solid #E8826E;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -3122,7 +3123,7 @@ section .main_title {
     height: 100%;
     position: relative;
     border-radius: 50%;
-    border: 10px solid #39cdff;
+    border: 10px solid #FFA278;
     overflow: hidden;
 }
 
