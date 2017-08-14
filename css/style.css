@@ -992,6 +992,11 @@ button {
     width: 100% !important;
 }
 
+.btn_form {
+    width: 150% !important;
+    position: relative;
+}
+
 .btn_load_more {
     border-radius: 50px;
     text-align: center;
@@ -3362,6 +3367,7 @@ section .main_title {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
     padding: 35px 0;
+
 }
 
 .hbf_2 .inner .form-control {
