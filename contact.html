@@ -90,24 +90,30 @@
                 <nav id="main_menu" class="mobile_menu navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="mobile_menu_title" style="display:none;">MENU</li>
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="room.html">ROOMS</a></li>
-                        <li><a href="contact.html">CONTACT US</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="index.html">STARTSIDA</a></li>
+                        <li><a href="rooms-list.html">RUM</a></li>
+                        <li><a href="appartments-list.html">Lägenheter</a></li>
+                        <li><a href="contact.html">KONTAKTA OSS</a></li>
+                        <li><a href="about-us.html">OM HOTELLET</a></li>
                         <li class="menu_button">
-                            <a href="booking-form.html" class="button  btn_yellow"><i class="fa fa-calendar"></i>BOOK ONLINE</a>
+                            <a href="http://booking.visbook.com/se/1157" class="button  btn_yellow"><i class="fa fa-calendar"></i>BOKA NU</a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
 
-        <!-- =========== GOOGLE MAP ========== -->
-        <div id="map">
-            <div id="google-map">
-                <button class="button  openmap-btn" id="openStreetView">Toggle Street View</button>
+         <!-- ========== PAGE TITLE ========== -->
+        <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
+            <div class="container">
+                <div class="inner">
+                    <h1>Kontakt</h1>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Startsida</a></li>
+                        <li>Kontakt</li>
+                    </ol>
+                </div>
             </div>
-            <div id="map-canvas"></div>
         </div>
 
         <!-- ========== MAIN ========== -->
@@ -117,33 +123,33 @@
                     
                     <div class="col-md-8">
                         <div class="main_title a_left">
-                            <h2>CONTACT US</h2>
+                            <h2>KONTAKTA OSS</h2>
                         </div>
                         <form id="contact-form-page">
                             <div class="row">
                                 <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Name</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                    <label class="control-label">Namn</label>
+                                    <input type="text" class="form-control" name="name" placeholder="Ditt Namn">
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Phone</label>
-                                    <input type="text" class="form-control" name="phone" placeholder="Phone">
+                                    <label class="control-label">Telefon nr</label>
+                                    <input type="text" class="form-control" name="phone" placeholder="Telefon">
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Email</label>
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email">
+                                    <label class="control-label">E-post</label>
+                                    <input type="email" class="form-control" name="email" placeholder="E-post">
                                 </div>
                                 <div class="form-group col-md-6 col-sm-6">
-                                    <label class="control-label">Subject</label>
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject">
+                                    <label class="control-label">Ämne</label>
+                                    <input type="text" class="form-control" name="subject" placeholder="Ämne">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <label class="control-label">Message</label>
-                                    <textarea class="form-control" name="message" placeholder="Your Message..."></textarea>
+                                    <label class="control-label">Meddelande</label>
+                                    <textarea class="form-control" name="message" placeholder="Ditt Meddelande..."></textarea>
                                 </div>
                                 <div class="form-group col-md-12">
                                     <button type="submit" class="button  btn_blue mt40 upper pull-right">
-                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send Your Message
+                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Skicka Meddelande
                                     </button>
                                 </div>
                             </div>
@@ -152,25 +158,22 @@
                     
                     <div class="col-md-4">
                         <div class="main_title a_left">
-                            <h2>GET IN TOUCH</h2>
+                            <h2>KONTAKT UPPGIFTER</h2>
                         </div>
                         <ul class="contact-info upper">
                             <li>
-                                <span>ADDRESS:</span> Navagio Zakynthos, Greece
+                                <span>ADDRESS:</span> Sollentunavägen 133, 191 44 Sollentuna
                             </li>
                             <li>
-                                <span>EMAIL:</span> example@site.com, contact@site.com
+                                <span>E-Post:</span> info@ettsmart.se
                             </li>
                             <li>
-                                <span>WEB:</span> www.site.com
+                                <span>WEBBADRESS:</span> www.ettsmart.se
                             </li>
                             <li>
-                                <span>PHONE:</span> +1 (330) <strong>993-443</strong> , +1 (330) <strong>995-445</strong>
+                                <span>telefon:</span> 08 350 260
                             </li>
-                            <li>
-                                <span>FAX:</span>
-                                <strong>+1 123456780</strong>
-                            </li>
+            
                         </ul>
                         <div class="social_media">
                             <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
@@ -185,6 +188,14 @@
                 </div>
             </div>
         </main>
+
+         <!-- =========== GOOGLE MAP ========== -->
+        <div id="map">
+            <div id="google-map">
+                <button class="button  openmap-btn" id="openStreetView">Toggle Street View</button>
+            </div>
+            <div id="map-canvas"></div>
+        </div>
     
         <!-- ========== FOOTER ========== -->
         <footer>
@@ -265,7 +276,7 @@
     
     <!-- ========== JAVASCRIPT ========== -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5l78ucnesDYF8bNAcCTnU1Sej-032g54"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
